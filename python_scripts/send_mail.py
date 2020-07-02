@@ -15,11 +15,11 @@ import subprocess
 
 file = input('Enter a file name to send: ')
 
-emailfrom = "kiln@cariboucreek.com"
-emailto = ["alex@cariboucreek.com"]
+emailfrom = "email"
+emailto = ["email"]
 fileToSend = str(file)
-username = "kiln@cariboucreek.com"
-password = "kiln1234"
+username = "email_username"
+password = "email_password"
 #############################################################
 msg = MIMEMultipart()
 msg["From"] = emailfrom
