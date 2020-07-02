@@ -1,0 +1,6 @@
+
+In the formula below, temperature (T) is expressed in degrees Celsius,
+relative humidity (rh) is expressed in %,
+and e is the base of natural logarithms 2.71828 [raised to the power of the contents of the square brackets]:
+
+Absolute Humidity (grams/m3) = 6.112 × e^[(17.67 × T)/(T+243.5)] × rh × 18.02 / (273.15+T) × 100 × 0.08314
